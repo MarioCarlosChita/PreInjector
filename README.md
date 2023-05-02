@@ -11,12 +11,11 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages). 
 -->
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+TODO: PreInjector is a dart simple package  with helps you  to make your dependency injection easy, and it still in developing feel free to contribute.
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+TODO: RegisterFactory<T>(T servive).
 
 ## Getting started
 
