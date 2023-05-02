@@ -17,12 +17,30 @@ TODO: PreInjector is a dart simple package  with helps you  to make your depende
 
 TODO: RegisterFactory<T>(T service).
 ```dart
- import 'package:pre_injector/pre_injector.dart';
+import 'package:pre_injector/pre_injector.dart';
  
 var locator = PreInjector.instance ;
 
 void main() {
   locator.registerFactory<ExampleService>(ExampleService());
+}
+
+class ExampleService {
+  @override
+  String toString(){
+    return """ 
+       done...
+    """;
+  }
+}
+```
+
+TODO: T get<T>().
+```dart
+import 'package:pre_injector/pre_injector.dart'; 
+var locator = PreInjector.instance ;
+
+void main() { 
   ExampleService example = locator.get<ExampleService>();
   print(example.toString());
 }
@@ -36,8 +54,7 @@ class ExampleService {
   }
 }
 ```
-## Additional information
 
-TODO: Tell users more about the package: where to find more information, how to 
-contribute to the package, how to file issues, what response they can expect 
-from the package authors, and more.
+
+## Additional information
+TODO: As I said it is a open source project feel free to contribute to sugest, I've been developing it in my free time..
