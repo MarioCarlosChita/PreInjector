@@ -15,7 +15,7 @@ TODO: PreInjector is a dart simple package  with helps you  to make your depende
 
 ## Features
 
-TODO: RegisterFactory<T>(T servive).
+TODO: RegisterFactory<T>(T service).
 ```dart
  import 'package:pre_injector/pre_injector.dart';
  
